@@ -1,0 +1,462 @@
+Microsoft Windows [Version 10.0.19044.2130]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\chakr>cd C:\Users\chakr\Downloads\dlib-master.zip\dlib-master
+The system cannot find the path specified.
+
+C:\Users\chakr>cd C:\Downloads\dlib-master.zip\dlib-master
+The system cannot find the path specified.
+
+C:\Users\chakr>cd Downloads\dlib-master.zip\dlib-master
+The system cannot find the path specified.
+
+C:\Users\chakr>python - version
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> exit()
+
+C:\Users\chakr>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (22.3)
+
+C:\Users\chakr>
+C:\Users\chakr>
+C:\Users\chakr>
+C:\Users\chakr>
+C:\Users\chakr>
+C:\Users\chakr>cd Downloads\dlib-master\dlib-master
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>python setup.py install
+running install
+C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running bdist_egg
+running egg_info
+creating tools\python\dlib.egg-info
+writing tools/python\dlib.egg-info\PKG-INFO
+writing dependency_links to tools/python\dlib.egg-info\dependency_links.txt
+writing top-level names to tools/python\dlib.egg-info\top_level.txt
+writing manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+reading manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'tools\python\build*'
+no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+running build_py
+running build_ext
+C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py:129: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(cmake_version) < '3.1.0':
+Building extension for Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+Invoking CMake setup: 'cmake C:\Users\chakr\Downloads\dlib-master\dlib-master\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\chakr\Downloads\dlib-master\dlib-master\build\lib.win-amd64-cpython-310 -DPYTHON_EXECUTABLE=C:\Users\chakr\AppData\Local\Programs\Python\Python310\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\chakr\Downloads\dlib-master\dlib-master\build\lib.win-amd64-cpython-310 -A x64'
+-- Building for: NMake Makefiles
+CMake Error at CMakeLists.txt:5 (message):
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  You must use Visual Studio to build a python extension on windows.  If you
+  are getting this error it means you have not installed Visual C++.  Note
+  that there are many flavors of Visual Studio, like Visual Studio for C#
+  development.  You need to install Visual Studio for C++.
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+-- Configuring incomplete, errors occurred!
+Traceback (most recent call last):
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 222, in <module>
+    setup(
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 177, in setup
+    return run_commands(dist)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 193, in run_commands
+    dist.run_commands()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+    self.run_command(cmd)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 74, in run
+    self.do_egg_install()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 123, in do_egg_install
+    self.run_command('bdist_egg')
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\bdist_egg.py", line 165, in run
+    cmd = self.call_command('install_lib', warn_dir=0)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\bdist_egg.py", line 151, in call_command
+    self.run_command(cmdname)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install_lib.py", line 11, in run
+    self.build()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\command\install_lib.py", line 112, in build
+    self.run_command('build_ext')
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 134, in run
+    self.build_extension(ext)
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 171, in build_extension
+    subprocess.check_call(cmake_setup, cwd=build_folder)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\build\\lib.win-amd64-cpython-310', '-DPYTHON_EXECUTABLE=C:\\Users\\chakr\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\build\\lib.win-amd64-cpython-310', '-A', 'x64']' returned non-zero exit status 1.
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>cmake
+Usage
+
+  cmake [options] <path-to-source>
+  cmake [options] <path-to-existing-build>
+  cmake [options] -S <path-to-source> -B <path-to-build>
+
+Specify a source directory to (re-)generate a build system for it in the
+current working directory.  Specify an existing build directory to
+re-generate its build system.
+
+Run 'cmake --help' for more information.
+
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>pip install cmake
+Requirement already satisfied: cmake in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (3.24.1.1)
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>cd Downloads\dlib-master\dlib-master
+The system cannot find the path specified.
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>python setup.py install
+running install
+C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running bdist_egg
+running egg_info
+writing tools/python\dlib.egg-info\PKG-INFO
+writing dependency_links to tools/python\dlib.egg-info\dependency_links.txt
+writing top-level names to tools/python\dlib.egg-info\top_level.txt
+reading manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'tools\python\build*'
+no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+running build_py
+running build_ext
+C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py:129: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(cmake_version) < '3.1.0':
+Building extension for Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+Invoking CMake setup: 'cmake C:\Users\chakr\Downloads\dlib-master\dlib-master\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\chakr\Downloads\dlib-master\dlib-master\build\lib.win-amd64-cpython-310 -DPYTHON_EXECUTABLE=C:\Users\chakr\AppData\Local\Programs\Python\Python310\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\chakr\Downloads\dlib-master\dlib-master\build\lib.win-amd64-cpython-310 -A x64'
+CMake Error at CMakeLists.txt:5 (message):
+
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  You must use Visual Studio to build a python extension on windows.  If you
+  are getting this error it means you have not installed Visual C++.  Note
+  that there are many flavors of Visual Studio, like Visual Studio for C#
+  development.  You need to install Visual Studio for C++.
+
+
+  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+-- Configuring incomplete, errors occurred!
+Traceback (most recent call last):
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 222, in <module>
+    setup(
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 177, in setup
+    return run_commands(dist)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 193, in run_commands
+    dist.run_commands()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+    self.run_command(cmd)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 74, in run
+    self.do_egg_install()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 123, in do_egg_install
+    self.run_command('bdist_egg')
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\bdist_egg.py", line 165, in run
+    cmd = self.call_command('install_lib', warn_dir=0)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\bdist_egg.py", line 151, in call_command
+    self.run_command(cmdname)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install_lib.py", line 11, in run
+    self.build()
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\command\install_lib.py", line 112, in build
+    self.run_command('build_ext')
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+    cmd_obj.run()
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 134, in run
+    self.build_extension(ext)
+  File "C:\Users\chakr\Downloads\dlib-master\dlib-master\setup.py", line 171, in build_extension
+    subprocess.check_call(cmake_setup, cwd=build_folder)
+  File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\build\\lib.win-amd64-cpython-310', '-DPYTHON_EXECUTABLE=C:\\Users\\chakr\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\chakr\\Downloads\\dlib-master\\dlib-master\\build\\lib.win-amd64-cpython-310', '-A', 'x64']' returned non-zero exit status 1.
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>C:
+
+C:\Users\chakr\Downloads\dlib-master\dlib-master>cd ..
+
+C:\Users\chakr\Downloads\dlib-master>cd ..
+
+C:\Users\chakr\Downloads>cd ..
+
+C:\Users\chakr>pip install dlib
+Collecting dlib
+  Using cached dlib-19.24.0.tar.gz (3.2 MB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: dlib
+  Building wheel for dlib (setup.py) ... error
+  error: subprocess-exited-with-error
+
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [70 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      running build_ext
+      C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py:129: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+        if LooseVersion(cmake_version) < '3.1.0':
+      Building extension for Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+      Invoking CMake setup: 'cmake C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\build\lib.win-amd64-cpython-310 -DPYTHON_EXECUTABLE=C:\Users\chakr\AppData\Local\Programs\Python\Python310\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\build\lib.win-amd64-cpython-310 -A x64'
+      -- Building for: NMake Makefiles
+      CMake Error at CMakeLists.txt:5 (message):
+
+
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+        You must use Visual Studio to build a python extension on windows.  If you
+        are getting this error it means you have not installed Visual C++.  Note
+        that there are many flavors of Visual Studio, like Visual Studio for C#
+        development.  You need to install Visual Studio for C++.
+
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+      -- Configuring incomplete, errors occurred!
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 222, in <module>
+          setup(
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\__init__.py", line 87, in setup
+          return distutils.core.setup(**attrs)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 177, in setup
+          return run_commands(dist)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 193, in run_commands
+          dist.run_commands()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+          self.run_command(cmd)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\wheel\bdist_wheel.py", line 299, in run
+          self.run_command('build')
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\build.py", line 24, in run
+          super().run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\command\build.py", line 131, in run
+          self.run_command(cmd_name)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 134, in run
+          self.build_extension(ext)
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 171, in build_extension
+          subprocess.check_call(cmake_setup, cwd=build_folder)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 369, in check_call
+          raise CalledProcessError(retcode, cmd)
+      subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\build\\lib.win-amd64-cpython-310', '-DPYTHON_EXECUTABLE=C:\\Users\\chakr\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\build\\lib.win-amd64-cpython-310', '-A', 'x64']' returned non-zero exit status 1.
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for dlib
+  Running setup.py clean for dlib
+Failed to build dlib
+Installing collected packages: dlib
+  Running setup.py install for dlib ... error
+  error: subprocess-exited-with-error
+
+  × Running setup.py install for dlib did not run successfully.
+  │ exit code: 1
+  ╰─> [74 lines of output]
+      running install
+      C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+        warnings.warn(
+      running build
+      running build_py
+      running build_ext
+      C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py:129: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+        if LooseVersion(cmake_version) < '3.1.0':
+      Building extension for Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+      Invoking CMake setup: 'cmake C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\build\lib.win-amd64-cpython-310 -DPYTHON_EXECUTABLE=C:\Users\chakr\AppData\Local\Programs\Python\Python310\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\build\lib.win-amd64-cpython-310 -A x64'
+      -- Building for: NMake Makefiles
+      CMake Error at CMakeLists.txt:5 (message):
+
+
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+        You must use Visual Studio to build a python extension on windows.  If you
+        are getting this error it means you have not installed Visual C++.  Note
+        that there are many flavors of Visual Studio, like Visual Studio for C#
+        development.  You need to install Visual Studio for C++.
+
+
+        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+      -- Configuring incomplete, errors occurred!
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 222, in <module>
+          setup(
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\__init__.py", line 87, in setup
+          return distutils.core.setup(**attrs)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 177, in setup
+          return run_commands(dist)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\core.py", line 193, in run_commands
+          dist.run_commands()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+          self.run_command(cmd)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\install.py", line 68, in run
+          return orig.install.run(self)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\command\install.py", line 695, in run
+          self.run_command('build')
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\command\build.py", line 24, in run
+          super().run()
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\command\build.py", line 131, in run
+          self.run_command(cmd_name)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\cmd.py", line 317, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 134, in run
+          self.build_extension(ext)
+        File "C:\Users\chakr\AppData\Local\Temp\pip-install-vj5i2sm7\dlib_d315ce1f319f40fab7b40306f7fa45b7\setup.py", line 171, in build_extension
+          subprocess.check_call(cmake_setup, cwd=build_folder)
+        File "C:\Users\chakr\AppData\Local\Programs\Python\Python310\lib\subprocess.py", line 369, in check_call
+          raise CalledProcessError(retcode, cmd)
+      subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\build\\lib.win-amd64-cpython-310', '-DPYTHON_EXECUTABLE=C:\\Users\\chakr\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\chakr\\AppData\\Local\\Temp\\pip-install-vj5i2sm7\\dlib_d315ce1f319f40fab7b40306f7fa45b7\\build\\lib.win-amd64-cpython-310', '-A', 'x64']' returned non-zero exit status 1.
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: legacy-install-failure
+
+× Encountered error while trying to install package.
+╰─> dlib
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for output from the failure.
+
+C:\Users\chakr>pip install dlib
+Collecting dlib
+  Using cached dlib-19.24.0.tar.gz (3.2 MB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: dlib
+  Building wheel for dlib (setup.py) ... done
+  Created wheel for dlib: filename=dlib-19.24.0-cp310-cp310-win_amd64.whl size=2954682 sha256=272f71241d87d44d88a4e7ce3923310392ff54cacdea49caeb4a1f76c2df19be
+  Stored in directory: c:\users\chakr\appdata\local\pip\cache\wheels\49\f6\12\8db371b40ce7b30c2b5a41f96f73bf7d0712db16bb0c1ef13f
+Successfully built dlib
+Installing collected packages: dlib
+Successfully installed dlib-19.24.0
+
+C:\Users\chakr>pip install face_recognition
+Collecting face_recognition
+  Using cached face_recognition-1.3.0-py2.py3-none-any.whl (15 kB)
+Requirement already satisfied: face-recognition-models>=0.3.0 in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (from face_recognition) (0.3.0)
+Collecting Pillow
+  Using cached Pillow-9.2.0-cp310-cp310-win_amd64.whl (3.3 MB)
+Requirement already satisfied: dlib>=19.7 in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (from face_recognition) (19.24.0)
+Requirement already satisfied: numpy in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (from face_recognition) (1.23.3)
+Collecting Click>=6.0
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Requirement already satisfied: colorama in c:\users\chakr\appdata\local\programs\python\python310\lib\site-packages (from Click>=6.0->face_recognition) (0.4.5)
+Installing collected packages: Pillow, Click, face_recognition
+Successfully installed Click-8.1.3 Pillow-9.2.0 face_recognition-1.3.0
+
+C:\Users\chakr>
